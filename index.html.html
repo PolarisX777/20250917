@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zhangjunhui</title>
+    <style>
+        #secondCss3 {
+            color: green;
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        a {
+            font-size: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="demo01.css">
+    <script>
+        console.log("2-JS内嵌式引入");
+    </script>
+    <script src="demo01.js"></script>
+</head>
+
+<body>
+    <h1>床前明月光</h1>
+    <p>疑是地上霜</p>
+    <p>举头望明月</p>
+    <p>低头思故乡</p>
+    <h3>JS的三种引入方式</h3>
+    <input type="button" value="1-JS的行入式引入" onclick="alert('1-JS的行入式引入')">
+    <a href="javascript:alert('1-JS的行入式引入')">1-JS的行入式引入</a>
+    <br>
+    <p style="color: red;font-size: 20px;">1-行内式引入Css3</p>
+    <p id="secondCss3">2-内嵌式引入CSS3</p>
+    <p class="thirdCss3">3-外链式方式引入Css3</p>
+    <p style="color: blue;">属性总是已name="value"的形式出现</p>
+    <a href="https://www.baidu.com">百度</a>
+    <br>
+    <img src="./随便一张图.jpg" alt="随便一张图" width="200px">
+    <audio src="1.mp3" controls></audio>
+    <br>
+    <video src="1.mp4" controls></video>
+</body>
+
+</html>
